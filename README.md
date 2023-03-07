@@ -6,18 +6,27 @@
 
 
 A摆放
+
     n = int(L/l)
+    
     m = int(W/w)
 
 
 B摆放
+
     n = int(L/w)
+    
     m = int(W/l)
 
 
 
 C摆放
+
     max p*q+m*n
+    
+    s.t.
+    
     L >= p*w+m*l
+    
     W >= n*w+q*l
 
