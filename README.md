@@ -26,7 +26,11 @@ C摆放
     
     s.t.
     
-    L >= p*w+m*l
+    L >= q*w+m*l
     
-    W >= n*w+q*l
+    W >= n*w+p*l
+    
+    m*l >= q*w
+    
+    p*l >= n*w
 
